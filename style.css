@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.product-card{
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.product-img{
+    width: 400px;
+}
+
+.product-img > img{
+    width: 100%;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    text-align: center;
+    align-items: center;
+}
